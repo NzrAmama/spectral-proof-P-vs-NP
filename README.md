@@ -114,3 +114,29 @@ with strong resistance to all known theoretical barriers, backed by numerical an
 Author: **Nizar Amama**  
 ORCID: [https://orcid.org/0009-0004-6721-1117]
 DOI (Zenodo): 10.5281/zenodo.16343740
+
+---
+
+---
+
+## 🔧 Formal Proof (Lean 4)
+
+This repository includes a full formal verification of the spectral gap using **Lean 4**.
+
+### 🔹 Files:
+- `Main.lean`: contains the main definitions and theorems.
+- `lakefile.lean`: Lean build configuration.
+- `lean-toolchain`: specifies version `leanprover/lean4:nightly`.
+- `spectral_gap_plot_labeled.png`: visual evidence of the gap.
+- `Spectral_Proof_of_P___NP.pdf`: compiled academic version.
+
+### 🔹 Verified Components:
+- The **Spectral Energy Function** \( \mathcal{E}^*(L, \epsilon) \)
+- The **Spectral Gap Theorem** for \( P \ne NP \)
+- Quantum inner product via QFT transformation
+- Compatibility with `mathlib4`
+
+### 🔹 Run Locally (if desired):
+```bash
+lake build
+lean --run Main.lean
