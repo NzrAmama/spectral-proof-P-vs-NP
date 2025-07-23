@@ -112,5 +112,5 @@ with strong resistance to all known theoretical barriers, backed by numerical an
 ---
 
 Author: **Nizar Amama**  
-ORCID: [https://orcid.org/0000-0002-XXXX-XXXX](https://orcid.org/0009-0004-6721-1117)  
+ORCID: [https://orcid.org/0009-0004-6721-1117]
 DOI (Zenodo): 10.5281/zenodo.16343740
