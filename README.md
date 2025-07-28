@@ -119,24 +119,71 @@ DOI (Zenodo): 10.5281/zenodo.16343740
 
 ---
 
-## 🔧 Formal Proof (Lean 4)
+## 🔧 Formal Verification (Lean 4)
 
-This repository includes a full formal verification of the spectral gap using **Lean 4**.
+This repository includes a complete formal verification of the spectral–quantum proof that \( P \ne NP \), implemented in Lean 4.
 
-### 🔹 Files:
-- `Main.lean`: contains the main definitions and theorems.
-- `lakefile.lean`: Lean build configuration.
-- `lean-toolchain`: specifies version `leanprover/lean4:nightly`.
-- `spectral_gap_plot_labeled.png`: visual evidence of the gap.
-- `Spectral_Proof_of_P___NP.pdf`: compiled academic version.
+📁 The Lean 4 code is located in the `/lean_formalization/` directory.
 
-### 🔹 Verified Components:
-- The **Spectral Energy Function** \( \mathcal{E}^*(L, \epsilon) \)
-- The **Spectral Gap Theorem** for \( P \ne NP \)
-- Quantum inner product via QFT transformation
-- Compatibility with `mathlib4`
+> The formalization defines the spectral energy function ℰ*, proves the spectral gap theorem, formalizes the impossibility of reduction, and introduces a quantum-extended model ℰ*_Q, all within Lean 4.
 
-### 🔹 Run Locally (if desired):
+---
+
+### 🔹 Directory Structure
+
+```
+/lean_formalization/   ← Lean 4 formal proof
+/latex/                ← PDF and LaTeX paper
+/numerics/             ← Python numerical simulations
+README.md              ← This documentation file
+```
+
+---
+
+### 🔹 Lean 4 Files (inside `/lean_formalization/`)
+
+| File                  | Description |
+|-----------------------|-------------|
+| `Energy.lean`         | Defines ℰ*(L, ε) using Fourier coefficients |
+| `Gap.lean`            | Formal statement of the spectral gap theorem |
+| `Reduction.lean`      | No-reduction principle formalized |
+| `Quantum.lean`        | ℰ*_Q using inner product from QFT |
+| `Main.lean`           | Central imports and entry point |
+| `lakefile.lean`       | Lean project configuration |
+| `README.md` (this)    | Main documentation file |
+
+---
+
+### 🔹 Additional Files
+
+| File                             | Description |
+|----------------------------------|-------------|
+| `spectral_gap_plot_labeled.png` | Graphical representation of Δ(ε) |
+| `Spectral_Proof_of_P___NP.pdf`  | Compiled academic version |
+| `lean-toolchain`                | Specifies Lean version used |
+
+---
+
+### 🔹 How to Run Locally (optional)
+
+1. Install [Lean 4](https://leanprover-community.github.io/get_started.html)
+2. Inside `/lean_formalization/` run:
+
 ```bash
 lake build
 lean --run Main.lean
+```
+
+---
+
+### 🔹 Notes
+
+- All components use `mathlib4`
+- Theorems are formalized with `theorem ... := by sorry` where appropriate
+- Compatible with Lean 4 nightly toolchain
+
+---
+
+**Author:** Nizar Amama  
+**ORCID:** [https://orcid.org/0009-0004-6721-1117]  
+**DOI (Zenodo):** 10.5281/zenodo.16343740
