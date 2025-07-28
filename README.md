@@ -113,8 +113,9 @@ with strong resistance to all known theoretical barriers, backed by numerical an
 
 Author: **Nizar Amama**  
 ORCID: [https://orcid.org/0009-0004-6721-1117]
-DOI (Zenodo): 10.5281/zenodo.16343740
-
+DOI (Zenodo):  
+- Version 1.0: [10.5281/zenodo.16343740](https://doi.org/10.5281/zenodo.16343740)  
+- Version 1.1 (Lean 4 Formalization Included): [10.5281/zenodo.16532135](https://doi.org/10.5281/zenodo.16532135)
 ---
 
 ---
@@ -187,3 +188,5 @@ lean --run Main.lean
 **Author:** Nizar Amama  
 **ORCID:** [https://orcid.org/0009-0004-6721-1117]  
 **DOI (Zenodo):** 10.5281/zenodo.16343740
+📌 **Latest citable version**:  
+[https://doi.org/10.5281/zenodo.16532135](https://doi.org/10.5281/zenodo.16532135)
