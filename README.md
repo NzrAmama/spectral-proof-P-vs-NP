@@ -1,4 +1,10 @@
 # spectral-proof-P-vs-NP
+
+[![Build Status](https://github.com/NzrAmama/spectral-proof-P-vs-NP/actions/workflows/ci.yml/badge.svg)](https://github.com/NzrAmama/spectral-proof-P-vs-NP/actions)
+[![Documentation Status](https://github.com/NzrAmama/spectral-proof-P-vs-NP/actions/workflows/docs.yml/badge.svg)](https://github.com/NzrAmama/spectral-proof-P-vs-NP/actions/workflows/docs.yml)
+[![Release](https://img.shields.io/github/v/release/NzrAmama/spectral-proof-P-vs-NP)](https://github.com/NzrAmama/spectral-proof-P-vs-NP/releases)
+[![License](https://img.shields.io/github/license/NzrAmama/spectral-proof-P-vs-NP)](https://github.com/NzrAmama/spectral-proof-P-vs-NP/blob/main/LICENSE)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16532135.svg)](https://doi.org/10.5281/zenodo.16532135)
 Spectral–Quantum Proof of P ≠ NP (by Nizar Amama)
 # ✅ Spectral–Quantum Proof of P ≠ NP
 
