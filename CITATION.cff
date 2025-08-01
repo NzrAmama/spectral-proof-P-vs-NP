@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+title: "Spectral Proof of P ≠ NP: A Comprehensive Mathematical Framework (v2.0)"
+message: "If you use this work, please cite it as follows."
+type: software
+authors:
+  - family-names: Amama
+    given-names: Nizar
+    orcid: "https://orcid.org/0009-0004-6721-1117"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.16532135
+repository-code: "https://github.com/NzrAmama/spectral-proof-P-vs-NP"
+license: MIT
+version: "2.0.0"
+date-released: "2025-08-01"
